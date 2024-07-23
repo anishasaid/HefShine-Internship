@@ -18,7 +18,7 @@
 	<div class="container mt-4">
 		<div class="row">
 
-			<div class="col-md-6 offset-md-3">
+			<div class="col-md-8 offset-md-2">
 
 				<div class="card">
 					<div class="card-body">
@@ -103,7 +103,31 @@
 								</select>
 							</div>
 
-							<div class="container text-center">
+							<div class="card">
+								<div class="card-body">
+									<p>Your Address</p>
+									
+									<div class="form-group">
+										<input 
+											type="text"
+											name="address.street"
+											class="form-control"
+											placeholder="Enter Street" />
+									</div>
+									
+									<div class="form-group">
+										<input 
+											type="text"
+											name="address.city"
+											class="form-control"
+											placeholder="Enter city" />
+									</div>
+									
+								</div>
+							</div>
+
+
+							<div class="container text-center mt-4">
 								<button type="submit" class="btn btn-primary">Submit</button>
 							</div>
 						</form>
